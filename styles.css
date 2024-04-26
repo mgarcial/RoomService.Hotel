@@ -9,18 +9,20 @@ body {
 
 h1, h2 {
     text-align: center;
+    color: #FFCF2C;
 }
 
 #product-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px; 
 }
 
 .product {
     margin: 10px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #3E3E3E;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
     text-align: center;
@@ -29,26 +31,27 @@ h1, h2 {
 .product span {
     display: block;
     font-size: 18px;
+    color: #FFCF2C;
 }
 
 .add-to-cart {
     padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #4CAF50;
+    color: #FFFFFF;
     border: none;
     border-radius: 3px;
     cursor: pointer;
 }
 
 .add-to-cart:hover {
-    background-color: #0056b3;
+    background-color: #45A049;
 }
 
 #cart {
     margin: 20px auto;
     padding: 10px;
     width: 50%;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
@@ -61,13 +64,13 @@ h1, h2 {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #FF5722;
+    color: #FFFFFF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 #checkout-btn:hover {
-    background-color: #0056b3;
+    background-color: #FF6D4C;
 }
