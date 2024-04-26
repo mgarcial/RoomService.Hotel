@@ -65,13 +65,18 @@ h1, h2 {
 
 #checkout-btn {
     display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
+    margin: 30px auto;
+    padding: 15px 30px;
     background-color: #FF5722;
     color: #FFFFFF;
     border: none;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transition: background-color 0.3s ease;
 }
 
 #checkout-btn:hover {
