@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenido al Hotel Shop</h1>
+
+    <div id="product-list">
+        <div class="row">
+            <div class="product">
+                <span>Cepillo - $5</span>
+                <button class="add-to-cart" onclick="addToCart(1)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Jabón - $7</span>
+                <button class="add-to-cart" onclick="addToCart(2)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Toalla - $10</span>
+                <button class="add-to-cart" onclick="addToCart(3)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Desodorante - $14</span>
+                <button class="add-to-cart" onclick="addToCart(4)">Agregar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product">
+                <span>Chaqueta - $30</span>
+                <button class="add-to-cart" onclick="addToCart(5)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Medias - $9</span>
+                <button class="add-to-cart" onclick="addToCart(6)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Camiseta - $25</span>
+                <button class="add-to-cart" onclick="addToCart(7)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Sudadera - $23</span>
+                <button class="add-to-cart" onclick="addToCart(8)">Agregar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product">
+                <span>Porción pizza - $6</span>
+                <button class="add-to-cart" onclick="addToCart(9)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Hamburguesa - $8</span>
+                <button class="add-to-cart" onclick="addToCart(10)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Bebida - $3</span>
+                <button class="add-to-cart" onclick="addToCart(11)">Agregar</button>
+            </div>
+            <div class="product">
+                <span>Postre - $12</span>
+                <button class="add-to-cart" onclick="addToCart(12)">Agregar</button>
+            </div>
+        </div>
+    </div>
+
+    <h2>Carrito</h2>
+    <div id="cart">
+        <!-- Aquí se mostrarán los productos añadidos al carrito -->
+    </div>
+
+    <button id="checkout-btn" onclick="checkout()">Checkout (WhatsApp)</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
