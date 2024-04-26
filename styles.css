@@ -20,11 +20,12 @@ h1, h2 {
 }
 
 .product {
+    flex: 0 0 calc(25% - 20px);
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     background-color: #3E3E3E;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     text-align: center;
 }
 
@@ -35,12 +36,14 @@ h1, h2 {
 }
 
 .add-to-cart {
-    padding: 5px 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
     background-color: #4CAF50;
     color: #FFFFFF;
     border: none;
-    border-radius: 3px;
+    border-radius: 25px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .add-to-cart:hover {
